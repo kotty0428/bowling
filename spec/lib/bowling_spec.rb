@@ -38,7 +38,7 @@ describe "ボウリングのスコア計算" do
                 @game.calc_score
                 #期待する合計※（）内はボーナス
                 #３＋７＋４＋ (4) = 18
-                expext(@game.total_score).to eq 18
+                expect(@game.total_score).to eq 18
             end
         end 
         
